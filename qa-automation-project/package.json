@@ -1,0 +1,17 @@
+{
+  "name": "qa-automation-academy",
+  "version": "1.0.0",
+  "description": "QA automation frontend project",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome": "testcafe chrome src/todoist/tests/project.tests.js --selector-timeout 15000 --asertion-timeout 15000",
+    "test-firefox": "testcafe firefox src/todoist/tests/project.tests.js --selector-timeout 15000 --asertion-timeout 15000",
+    "test-all": "testcafe chrome,firefox src/todoist/tests/project.tests.js --selector-timeout 15000 --asertion-timeout 15000"
+  },
+  "author": "sandra barba",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.8.2",
+    "testcafe-reporter-junit": "^3.0.0"
+  }
+}
