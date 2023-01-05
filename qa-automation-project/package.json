@@ -11,7 +11,7 @@
   "author": "sandra barba",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^1.8.2",
+    "testcafe": "^1.20.1",
     "testcafe-reporter-junit": "^3.0.0"
   }
 }
